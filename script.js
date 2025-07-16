@@ -41,8 +41,8 @@ startButton.addEventListener("click", () => {
 
 function yesButtonListener(){
     document.body.innerHTML = "<div class='wrapper'><h2 class='question'>I July 2 ❤️ moah moah moah, "+input+ "!</h2>"+
-    "<img class='gif' alt='gif' src='https://media.giphy.com/media/fHGl1MDMNkO6fOaFDF/giphy.gif'/></div><script src='scriptMain.js'></script>"
-    gifMain.src = "https://media.giphy.com/media/fHGl1MDMNkO6fOaFDF/giphy.gif";
+    "<img class='gif' alt='gif' src='https://media1.tenor.com/m/5IwZW7QpyoYAAAAC/love-bubu-dudu.gif'/></div><script src='scriptMain.js'></script>"
+    gifMain.src = "https://media1.tenor.com/m/5IwZW7QpyoYAAAAC/love-bubu-dudu.gif";
 }
 
 function noButtonListener(){
