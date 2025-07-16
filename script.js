@@ -50,7 +50,7 @@ function noButtonListener(){
         gifMain.src ="https://media.tenor.com/seHFHw6tTBkAAAAi/tkthao219-bubududu.gif";
         questionMain.innerHTML = "Khong thuong chi ha :< (ﾉ▼д▼)ﾉ ~┻━┻ ☆☆`?";
     }
-    else if (count >= 5 && count < 10){
+    else if (count >= 5 && count < 7){
         gifMain.src ="https://media.tenor.com/KmIZbENMqx4AAAAi/bubu-dudu-sseeyall.gif";
         questionMain.innerHTML = "Khong thuong thiet luon sao..(╯°□°）╯︵ ┻━┻.";
     }
