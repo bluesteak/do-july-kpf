@@ -24,7 +24,7 @@ startButton.addEventListener("click", () => {
         "<title>Do You Love Me?</title>"+
         "<link rel='stylesheet' href='styleMain.css'/>"
 
-        document.body.innerHTML = "<div class='wrapper'><h2 class='question'>Hello "+input+ "! Will you go out with me?</h2>"+
+        document.body.innerHTML = "<div class='wrapper'><h2 class='question'>Hello "+input+ "! Do July Me?</h2>"+
         "<img class='gif' alt='gif' src='https://media.giphy.com/media/0kDdAFAELmvvFNUKim/giphy.gif'/>"+
         "<div class='btn-group'><button class='yes-btn'>Yes</button>"+
         "<button class='no-btn'>No</button></div></div>"
@@ -40,7 +40,7 @@ startButton.addEventListener("click", () => {
 });
 
 function yesButtonListener(){
-    document.body.innerHTML = "<div class='wrapper'><h2 class='question'>Yay! Thank you for loving me ❤️, "+input+ "!</h2>"+
+    document.body.innerHTML = "<div class='wrapper'><h2 class='question'>I July A LOTTTTTT 2 ❤️ moah moah moah ┬──┬◡ﾉ(° -°ﾉ), "+input+ "!</h2>"+
     "<img class='gif' alt='gif' src='https://media.giphy.com/media/fHGl1MDMNkO6fOaFDF/giphy.gif'/></div><script src='scriptMain.js'></script>"
     gifMain.src = "https://media.giphy.com/media/fHGl1MDMNkO6fOaFDF/giphy.gif";
 }
@@ -48,15 +48,15 @@ function yesButtonListener(){
 function noButtonListener(){
     if (count < 5) {
         gifMain.src ="https://media.giphy.com/media/hbOgjMOUfLdWV2Ty1j/giphy.gif";
-        questionMain.innerHTML = "You don't love me?";
+        questionMain.innerHTML = "Khong thuong chi ha :< (ﾉ▼д▼)ﾉ ~┻━┻ ☆☆`?";
     }
     else if (count >= 5 && count < 10){
         gifMain.src ="https://media.giphy.com/media/QuCslOrnS649PSCnn7/giphy.gif";
-        questionMain.innerHTML = "Stop playing with me! Do you love me or not?!";
+        questionMain.innerHTML = "Khong thuong thiet luon sao..(╯°□°）╯︵ ┻━┻.";
     }
     else{
         gifMain.src ="https://media.giphy.com/media/8OPf6xrtXi3QEcu5h9/giphy.gif";
-        questionMain.innerHTML = "JUST ANSWER IT! DO YOU LOVE ME?!";
+        questionMain.innerHTML = "Co thuong hong (┛ಠДಠ)┛彡┻━┻  ";
     }
     const noButtonRect = noButton.getBoundingClientRect();
     const maxX = window.innerWidth - noButtonRect.width;
