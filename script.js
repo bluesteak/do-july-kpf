@@ -15,13 +15,13 @@ startButton.addEventListener("click", () => {
     input = document.getElementById("fname").value;
 
     if (input== ""){
-        gifLanding.src = "https://tenor.com/mns9thy7IPA.gif";
+        gifLanding.src = "https://media.tenor.com/KmIZbENMqx4AAAAi/bubu-dudu-sseeyall.gif";
         questionLanding.innerHTML = "Please give  me your name before you start!"
     }
     else{
         document.head.innerHTML = "<meta charset='UTF-8'>"+
         "<meta name='viewport' content='width=device-width, initial-scale=1.0'>"+
-        "<title>Do You Love Me?</title>"+
+        "<title>Do July Me?</title>"+
         "<link rel='stylesheet' href='styleMain.css'/>"
 
         document.body.innerHTML = "<div class='wrapper'><h2 class='question'>Hello "+input+ "! Do July Me?</h2>"+
@@ -40,18 +40,18 @@ startButton.addEventListener("click", () => {
 });
 
 function yesButtonListener(){
-    document.body.innerHTML = "<div class='wrapper'><h2 class='question'>I July A LOTTTTTT 2 ❤️ moah moah moah ┬──┬◡ﾉ(° -°ﾉ), "+input+ "!</h2>"+
+    document.body.innerHTML = "<div class='wrapper'><h2 class='question'>I July 2 ❤️ moah moah moah, "+input+ "!</h2>"+
     "<img class='gif' alt='gif' src='https://media.giphy.com/media/fHGl1MDMNkO6fOaFDF/giphy.gif'/></div><script src='scriptMain.js'></script>"
     gifMain.src = "https://media.giphy.com/media/fHGl1MDMNkO6fOaFDF/giphy.gif";
 }
 
 function noButtonListener(){
     if (count < 5) {
-        gifMain.src ="https://media.giphy.com/media/hbOgjMOUfLdWV2Ty1j/giphy.gif";
+        gifMain.src ="https://media.tenor.com/WWiCzxfs-P8AAAAi/tkthao219-bubududu.gif";
         questionMain.innerHTML = "Khong thuong chi ha :< (ﾉ▼д▼)ﾉ ~┻━┻ ☆☆`?";
     }
     else if (count >= 5 && count < 10){
-        gifMain.src ="https://media.giphy.com/media/QuCslOrnS649PSCnn7/giphy.gif";
+        gifMain.src ="https://media.tenor.com/KmIZbENMqx4AAAAi/bubu-dudu-sseeyall.gif";
         questionMain.innerHTML = "Khong thuong thiet luon sao..(╯°□°）╯︵ ┻━┻.";
     }
     else{
