@@ -47,7 +47,7 @@ function yesButtonListener(){
 
 function noButtonListener(){
     if (count < 5) {
-        gifMain.src ="https://media1.tenor.com/m/8Hs24bl0z94AAAAC/12.gif";
+        gifMain.src ="https://media.tenor.com/seHFHw6tTBkAAAAi/tkthao219-bubududu.gif";
         questionMain.innerHTML = "Khong thuong chi ha :< (ﾉ▼д▼)ﾉ ~┻━┻ ☆☆`?";
     }
     else if (count >= 5 && count < 10){
@@ -55,7 +55,7 @@ function noButtonListener(){
         questionMain.innerHTML = "Khong thuong thiet luon sao..(╯°□°）╯︵ ┻━┻.";
     }
     else{
-        gifMain.src ="https://media.giphy.com/media/8OPf6xrtXi3QEcu5h9/giphy.gif";
+        gifMain.src ="https://media1.tenor.com/m/lW19AC71NSQAAAAC/tkthao219-peach.gif";
         questionMain.innerHTML = "Co thuong hong (┛ಠДಠ)┛彡┻━┻  ";
     }
     const noButtonRect = noButton.getBoundingClientRect();
