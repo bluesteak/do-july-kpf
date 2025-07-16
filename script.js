@@ -47,7 +47,7 @@ function yesButtonListener(){
 
 function noButtonListener(){
     if (count < 5) {
-        gifMain.src ="https://media.tenor.com/WWiCzxfs-P8AAAAi/tkthao219-bubududu.gif";
+        gifMain.src ="https://media1.tenor.com/m/8Hs24bl0z94AAAAC/12.gif";
         questionMain.innerHTML = "Khong thuong chi ha :< (ﾉ▼д▼)ﾉ ~┻━┻ ☆☆`?";
     }
     else if (count >= 5 && count < 10){
