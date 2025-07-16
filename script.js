@@ -40,7 +40,7 @@ startButton.addEventListener("click", () => {
 });
 
 function yesButtonListener(){
-    document.body.innerHTML = "<div class='wrapper'><h2 class='question'>I July 2 ❤️ moah moah moah, "+input+ "!</h2>"+
+    document.body.innerHTML = "<div class='wrapper'><h2 class='question'>Thuong em be"+input+ "❤️ moah moah moah!!!</h2>"+
     "<img class='gif' alt='gif' src='https://media1.tenor.com/m/5IwZW7QpyoYAAAAC/love-bubu-dudu.gif'/></div><script src='scriptMain.js'></script>"
     gifMain.src = "https://media1.tenor.com/m/5IwZW7QpyoYAAAAC/love-bubu-dudu.gif";
 }
@@ -55,7 +55,7 @@ function noButtonListener(){
         questionMain.innerHTML = "Khong thuong thiet luon sao..(╯°□°）╯︵ ┻━┻.";
     }
     else{
-        gifMain.src ="https://media1.tenor.com/m/lW19AC71NSQAAAAC/tkthao219-peach.gif";
+        gifMain.src ="https://media.tenor.com/ReBl4xeYqHcAAAA1/tkthao219-quby.webp";
         questionMain.innerHTML = "Co thuong hong (┛ಠДಠ)┛彡┻━┻  ";
     }
     const noButtonRect = noButton.getBoundingClientRect();
