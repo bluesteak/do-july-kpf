@@ -48,15 +48,15 @@ function yesButtonListener(){
 function noButtonListener(){
     if (count < 5) {
         gifMain.src ="https://media.giphy.com/media/hbOgjMOUfLdWV2Ty1j/giphy.gif";
-        questionMain.innerHTML = "Khong thuong chi ha :< (ﾉ▼д▼)ﾉ ~┻━┻ ☆☆`?";
+        questionMain.innerHTML = "Coa thuong chi khong ha :< (ﾉ▼д▼)ﾉ ~┻━┻ ☆☆`?";
     }
     else if (count >= 5 && count < 7){
         gifMain.src ="https://media.giphy.com/media/QuCslOrnS649PSCnn7/giphy.gif";
-        questionMain.innerHTML = "Khong thuong thiet luon sao..(╯°□°）╯︵ ┻━┻.";
+        questionMain.innerHTML = "Coa thuong hooongggg??..(╯°□°）╯︵ ┻━┻.";
     }
     else{
         gifMain.src ="https://media.tenor.com/ReBl4xeYqHcAAAA1/tkthao219-quby.webp";
-        questionMain.innerHTML = "Co thuong hong (┛ಠДಠ)┛彡┻━┻  ";
+        questionMain.innerHTML = "Sao ma van con tiep tuc bam 'No' dzi ha (┛ಠДಠ)┛彡┻━┻  ";
     }
     const noButtonRect = noButton.getBoundingClientRect();
     const maxX = window.innerWidth - noButtonRect.width;
