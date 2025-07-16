@@ -47,11 +47,11 @@ function yesButtonListener(){
 
 function noButtonListener(){
     if (count < 5) {
-        gifMain.src ="https://media.tenor.com/seHFHw6tTBkAAAAi/tkthao219-bubududu.gif";
+        gifMain.src ="https://media.giphy.com/media/hbOgjMOUfLdWV2Ty1j/giphy.gif";
         questionMain.innerHTML = "Khong thuong chi ha :< (ﾉ▼д▼)ﾉ ~┻━┻ ☆☆`?";
     }
     else if (count >= 5 && count < 7){
-        gifMain.src ="https://media.tenor.com/KmIZbENMqx4AAAAi/bubu-dudu-sseeyall.gif";
+        gifMain.src ="https://media.giphy.com/media/QuCslOrnS649PSCnn7/giphy.gif";
         questionMain.innerHTML = "Khong thuong thiet luon sao..(╯°□°）╯︵ ┻━┻.";
     }
     else{
